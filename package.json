@@ -1,7 +1,10 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "uxdesignbrest-website",
+  "description": "UX Design Brest website",
   "version": "0.0.1",
+  "author": "Anthony Le Goas",
+  "license": "MIT",
+  "homepage": "https://github.com/UXDesignBrest/website#readme",
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
