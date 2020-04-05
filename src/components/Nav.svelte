@@ -4,9 +4,17 @@
 
 <style>
 	nav {
-		border-bottom: 1px solid rgba(255,62,0,0.1);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 		font-weight: 300;
-		padding: 0 1em;
+		padding: 1em;
+		color: var(--primary-color);
+	}
+
+	.logo {
+		max-height: 4em;
+		max-width: 15em;
 	}
 
 	ul {
@@ -24,6 +32,7 @@
 	li {
 		display: block;
 		float: left;
+		margin : 0 1em;
 	}
 
 	[aria-current] {
@@ -36,7 +45,7 @@
 		content: '';
 		width: calc(100% - 1em);
 		height: 2px;
-		background-color: rgb(255,62,0);
+		background-color: var(--primary-color);
 		display: block;
 		bottom: -1px;
 	}
@@ -49,12 +58,15 @@
 </style>
 
 <nav>
+	<a href="/">
+		<img class="logo" alt="Logo UX Design Brest" src="uxdesignbrest/logo-purple.png"/>
+	</a>
 	<ul>
-		<li><a aria-current='{segment === undefined ? "page" : undefined}' href='.'>home</a></li>
-		<li><a aria-current='{segment === "about" ? "page" : undefined}' href='about'>about</a></li>
-
-		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='blog'>blog</a></li>
+		<li><a aria-current='{segment === undefined ? "page" : undefined}' href='.'>Accueil</a></li>
+		<li><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='blog'>Evènements</a></li>
+		<li><a aria-current='{segment === "about" ? "page" : undefined}' href='about'>À propos</a></li>
 	</ul>
+	<div>
+		social links
+	</div>
 </nav>
