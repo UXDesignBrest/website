@@ -1,5 +1,6 @@
 <script>
 	import IconLink from '../../../cdk/icons/IconLink/IconLink.svelte'
+	import SocialLinks from '../../social/SocialLinks/SocialLinks.svelte'
 	export let segment;
 </script>
 
@@ -67,7 +68,5 @@
 		<li><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='blog'>Evènements</a></li>
 		<li><a aria-current='{segment === "about" ? "page" : undefined}' href='about'>À propos</a></li>
 	</ul>
-	<div>
-		<IconLink href="https://github.com/UXDesignBrest" name="github"/>
-	</div>
+	<SocialLinks/>
 </nav>
