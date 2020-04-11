@@ -1,0 +1,156 @@
+<div style="display: none">
+  <!-- wrapper div allows use of innerHTML -->
+  <svg>
+    <symbol id="arrow-left" class="icon" viewBox="0 0 24 24">
+      <line x1="19" y1="12" x2="5" y2="12" />
+      <polyline points="12 19 5 12 12 5" />
+    </symbol>
+
+    <symbol id="arrow-right" class="icon" viewBox="0 0 24 24">
+      <line x1="5" y1="12" x2="19" y2="12" />
+      <polyline points="12 5 19 12 12 19" />
+    </symbol>
+
+    <symbol id="arrow-up" class="icon" viewBox="0 0 24 24">
+      <line x1="12" y1="19" x2="12" y2="5" />
+      <polyline points="5 12 12 5 19 12" />
+    </symbol>
+
+    <symbol id="arrow-down" class="icon" viewBox="0 0 24 24">
+      <line x1="12" y1="5" x2="12" y2="19" />
+      <polyline points="19 12 12 19 5 12" />
+    </symbol>
+
+    <symbol id="check" class="icon" viewBox="0 0 24 24">
+      <polyline points="20 6 9 17 4 12" />
+    </symbol>
+
+    <symbol id="close" class="icon" viewBox="0 0 24 24">
+      <line x1="18" y1="6" x2="6" y2="18" />
+      <line x1="6" y1="6" x2="18" y2="18" />
+    </symbol>
+
+    <symbol id="download" class="icon" viewBox="0 0 24 24">
+      <path d="M21 15V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V15" />
+      <polyline points="7 10 12 15 17 10" />
+      <line x1="12" y1="15" x2="12" y2="3" />
+    </symbol>
+
+    <symbol id="edit" class="icon" viewBox="0 0 24 24">
+      <path
+        d="M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34" />
+      <polygon points="18 2 22 6 12 16 8 16 8 12 18 2" />
+    </symbol>
+
+    <symbol id="github" class="icon" viewBox="0 0 24 24">
+      <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35
+        6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91
+        1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07
+        0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0
+        0 0 9 18.13V22" />
+    </symbol>
+
+    <symbol id="git-branch" class="icon" viewBox="0 0 24 24">
+      <line x1="6" y1="3" x2="6" y2="15" />
+      <circle cx="18" cy="6" r="3" />
+      <circle cx="6" cy="18" r="3" />
+      <path d="M18 9a9 9 0 0 1-9 9" />
+    </symbol>
+
+    <symbol id="log-in" class="icon" viewBox="0 0 24 24">
+      <path d="M15 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H15" />
+      <polyline points="10 17 15 12 10 7" />
+      <line x1="15" y1="12" x2="3" y2="12" />
+    </symbol>
+
+    <symbol id="maximize" class="icon" viewBox="0 0 24 24">
+      <path
+        d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0
+        2-2v-3M3 16v3a2 2 0 0 0 2 2h3" />
+    </symbol>
+
+    <symbol id="maximize-2" class="icon" viewBox="0 0 24 24">
+      <polyline points="15 3 21 3 21 9" />
+      <polyline points="9 21 3 21 3 15" />
+      <line x1="21" y1="3" x2="14" y2="10" />
+      <line x1="3" y1="21" x2="10" y2="14" />
+    </symbol>
+
+    <symbol id="menu" class="icon" viewBox="0 0 24 24">
+      <line x1="3" y1="12" x2="21" y2="12" />
+      <line x1="3" y1="6" x2="21" y2="6" />
+      <line x1="3" y1="18" x2="21" y2="18" />
+    </symbol>
+
+    <symbol id="message-square" class="icon" viewBox="0 0 24 24">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+    </symbol>
+
+    <symbol id="minus" class="icon" viewBox="0 0 24 24">
+      <line x1="5" y1="12" x2="19" y2="12" />
+    </symbol>
+
+    <symbol id="plus" class="icon" viewBox="0 0 24 24">
+      <line x1="12" y1="5" x2="12" y2="19" />
+      <line x1="5" y1="12" x2="19" y2="12" />
+    </symbol>
+
+    <symbol id="save" class="icon" viewBox="0 0 24 24">
+      <path
+        d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z" />
+      <polyline points="17 21 17 13 7 13 7 21" />
+      <polyline points="7 3 7 8 15 8" />
+    </symbol>
+
+    <symbol id="link" class="icon" viewBox="0 0 24 24">
+      <path d="M9,7L6,7A2 2 0 0 0 6,17L9,17" />
+      <path d="M15,7L18,7A2 2 0 0 1 18,17L15,17" />
+      <path d="M7,12L17,12" />
+    </symbol>
+
+    <symbol id="chevron" class="icon" viewBox="0 0 24 24">
+      <path d="M2,7 L12,17 L20,7" />
+    </symbol>
+
+    <symbol id="calendar" class="icon" viewBox="0 0 58 58" slice="overflow">
+      <g>
+        <path
+          d="M46,34c-6.617,0-12,5.383-12,12s5.383,12,12,12s12-5.383,12-12S52.617,34,46,34z
+          M46,56c-5.514,0-10-4.486-10-10s4.486-10,10-10s10,4.486,10,10S51.514,56,46,56z" />
+        <path
+          d="M52,45h-5v-5c0-0.553-0.447-1-1-1s-1,0.447-1,1v6c0,0.553,0.447,1,1,1h6c0.553,0,1-0.447,1-1S52.553,45,52,45z" />
+        <path
+          d="M27,21h-2h-7h-2H7v9v2v7v2v9h9h2h9v-9v-2v-7h7h2h9V21h-9h-2H27z
+          M36,23h7v7h-7V23z M18,23h7v7h-7V23z M9,23h7v7H9V23z M9,32h7v7H9V32z
+          M16,48H9v-7h7V48z M25,48h-7v-7h7V48z M25,39h-7v-7h7V39z
+          M34,30h-7v-7h7V30z" />
+        <path
+          d="M33,55H2V16h48v13c0,0.553,0.447,1,1,1s1-0.447,1-1V15V5c0-0.553-0.447-1-1-1h-5V1c0-0.553-0.447-1-1-1h-7
+          c-0.553,0-1,0.447-1,1v3H15V1c0-0.553-0.447-1-1-1H7C6.447,0,6,0.447,6,1v3H1C0.447,4,0,4.447,0,5v10v41c0,0.553,0.447,1,1,1h32c0.553,0,1-0.447,1-1S33.553,55,33,55z
+          M39,2h5v3v3h-5V5V2z M8,2h5v3v3H8V5V2z
+          M2,6h4v3c0,0.553,0.447,1,1,1h7c0.553,0,1-0.447,1-1V6h22v3c0,0.553,0.447,1,1,1h7c0.553,0,1-0.447,1-1V6h4v8H2V6z" />
+      </g>
+    </symbol>
+
+    <symbol
+      id="location"
+      class="icon"
+      viewBox="0 0 512 512"
+      slice="overflow"
+      stroke-width="26">
+      <g>
+        <path
+          d="M256,0C153.755,0,70.573,83.182,70.573,185.426c0,126.888,165.939,313.167,173.004,321.035c6.636,7.391,18.222,7.378,24.846,0c7.065-7.868,173.004-194.147,173.004-321.035C441.425,83.182,358.244,0,256,0z
+          M256,469.729
+          c-55.847-66.338-152.035-197.217-152.035-284.301c0-83.834,68.202-152.036,152.035-152.036s152.035,68.202,152.035,152.035C408.034,272.515,311.861,403.37,256,469.729z" />
+      </g>
+      <g>
+        <path
+          d="M256,92.134c-51.442,0-93.292,41.851-93.292,93.293s41.851,93.293,93.292,93.293s93.291-41.851,93.291-93.293S307.441,92.134,256,92.134z
+          M256,245.328c-33.03,0-59.9-26.871-59.9-59.901s26.871-59.901,59.9-59.901s59.9,26.871,59.9,59.901
+          S289.029,245.328,256,245.328z" />
+      </g>
+    </symbol>
+  </svg>
+</div>
