@@ -35,8 +35,9 @@ yarn run test
 
 👤 **Anthony Le Goas**
 
-* Twitter: [@anthony_legoas](https://twitter.com/anthony_legoas)
-* Github: [@anthonylegoas](https://github.com/anthonylegoas)
+- Twitter: [@anthony_legoas](https://twitter.com/anthony_legoas)
+- Github: [@anthonylegoas](https://github.com/anthonylegoas)
+- LinkedIn: [@anthony-le-goas](https://linkedin.com/in/anthony-le-goas)
 
 ## 🤝 Contributing
 
@@ -51,5 +52,6 @@ Give a ⭐️ if you like this project!
 Copyright © 2020 [UX Design Brest](https://github.com/UXDesignBrest).<br />
 This project is [MIT](https://github.com/UXDesignBrest/website/blob/master/LICENCE) licensed.
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
