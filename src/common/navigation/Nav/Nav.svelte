@@ -1,5 +1,6 @@
 <script>
   import IconLink from "../../../cdk/icons/IconLink/IconLink.svelte";
+  import LogoLink from "../../../cdk/logos/LogoLink/LogoLink.svelte";
   import SocialLinks from "../../social/SocialLinks/SocialLinks.svelte";
   import Menu from "./Menu/Menu.svelte";
   export let segment;
@@ -14,11 +15,6 @@
     color: var(--primary-color);
   }
 
-  .logo {
-    max-height: 4em;
-    max-width: 15em;
-  }
-
   .nav-links {
     margin-left: auto;
     display: flex;
@@ -27,12 +23,7 @@
 </style>
 
 <nav>
-  <a href="/">
-    <img
-      class="logo"
-      alt="Logo UX Design Brest"
-      src="uxdesignbrest/logo-purple.png" />
-  </a>
+  <LogoLink href="/" />
   <div class="nav-links">
     <Menu {segment} />
     <SocialLinks />
