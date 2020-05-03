@@ -1,6 +1,6 @@
 <script>
   import IconLink from "../../../cdk/icons/IconLink/IconLink.svelte";
-  import LogoLink from "../../../cdk/logos/LogoLink/LogoLink.svelte";
+  import LogoAnimated from "../../../cdk/logos/LogoAnimated/LogoAnimated.svelte";
   import SocialLinks from "../../social/SocialLinks/SocialLinks.svelte";
   import Menu from "./Menu/Menu.svelte";
   export let segment;
@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     font-weight: 300;
-    padding: 1em;
+    padding: 2em 1em;
     color: var(--primary-color);
   }
 
@@ -23,7 +23,7 @@
 </style>
 
 <nav>
-  <LogoLink href="/" />
+  <LogoAnimated />
   <div class="nav-links">
     <Menu {segment} />
     <SocialLinks />
