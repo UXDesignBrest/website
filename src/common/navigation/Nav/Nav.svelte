@@ -12,7 +12,7 @@
     align-items: center;
     font-weight: 300;
     padding: 2em 1em;
-    color: var(--primary-color);
+    color: black;
   }
 
   .nav-links {
