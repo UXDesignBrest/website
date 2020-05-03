@@ -8,7 +8,6 @@
 
 <style>
   a {
-    color: var(--primary-color);
     margin: 0 0.5em;
   }
 </style>
