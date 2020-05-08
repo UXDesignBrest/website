@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-  <title>Evénements</title>
+  <title>Evénements • UX Design Brest</title>
 </svelte:head>
 
 <Events {events} />

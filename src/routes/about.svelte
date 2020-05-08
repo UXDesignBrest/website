@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>About</title>
+  <title>À propos • UX Design Brest</title>
 </svelte:head>
 
 <h1>About this site</h1>
