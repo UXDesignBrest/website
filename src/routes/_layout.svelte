@@ -1,5 +1,5 @@
 <script>
-  import Nav from "../common/navigation/Nav/Nav.svelte";
+  import Nav from "../common/navigation/Nav/NavContainer.svelte";
 
   export let segment;
 </script>
@@ -8,7 +8,7 @@
   main {
     position: relative;
     max-width: calc(100vw - 4em);
-    padding: 2em;
+    padding: var(--nav-height) 0 0 0;
     margin: 0 auto;
     box-sizing: border-box;
   }
