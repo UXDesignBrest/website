@@ -1,8 +1,11 @@
 :root {
+  /* colors */
   --primary-color: rgb(88, 87, 161);
   --primary-color-light: rgba(88, 87, 161, 0.1);
   --secondary-color: rgb(238, 255, 65);
   --secondary-color-light: rgba(238, 255, 65, 0.1);
+  /* layout */
+  --nav-height: 7em;
 }
 
 @font-face {
