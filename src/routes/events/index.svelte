@@ -9,7 +9,7 @@
 </script>
 
 <script>
-  import Events from "../../common/events/Events/Events.svelte";
+  import { Events } from "../../common";
   export let events;
 </script>
 

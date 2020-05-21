@@ -1,5 +1,5 @@
 <script>
-  import Nav from "../common/navigation/Nav/NavContainer.svelte";
+  import { Nav } from "../common";
 
   export let segment;
 </script>
