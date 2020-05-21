@@ -25,7 +25,10 @@
 </style>
 
 {#if visible}
-  <a class="logo-animated" href="/" aria-label="Logo UX Design Brest">
+  <a
+    class="logo-animated {$$props.class}"
+    href="/"
+    aria-label="Logo UX Design Brest">
     {#each 'UX' as a, i}
       <span transition:fly={{ delay: 100 + i * 20, duration: 800 }}>{a}</span>
     {/each}
