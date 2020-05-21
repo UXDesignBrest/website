@@ -1,5 +1,5 @@
 <script>
-  import Event from "./Event/EventContainer.svelte";
+  import Event from "./Event";
 
   export let events;
 </script>

@@ -1,8 +1,8 @@
 <script>
   import IconLink from "../../../cdk/icons/IconLink/IconLink.svelte";
   import LogoAnimated from "../../../cdk/logos/LogoAnimated/LogoAnimated.svelte";
-  import MenuButton from "./MenuButton/MenuButton.svelte";
-  import Menu from "./Menu/Menu.svelte";
+  import MenuButton from "./MenuButton";
+  import Menu from "./Menu";
 
   export let displayShadow = false;
   export let segment;
