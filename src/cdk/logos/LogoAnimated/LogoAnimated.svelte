@@ -16,7 +16,7 @@
     margin: 0 1em;
   }
 
-  @media (max-width: 840px) {
+  @media (max-width: 1100px) {
     .logo-animated {
       font-size: 1.5rem;
       margin: 0 0.25rem;
