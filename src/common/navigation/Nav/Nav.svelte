@@ -1,11 +1,10 @@
 <script>
   import IconLink from "../../../cdk/icons/IconLink/IconLink.svelte";
   import LogoAnimated from "../../../cdk/logos/LogoAnimated/LogoAnimated.svelte";
-  import SocialLinks from "../../social/SocialLinks/SocialLinks.svelte";
+  import MenuButton from "./MenuButton/MenuButton.svelte";
   import Menu from "./Menu/Menu.svelte";
 
   export let displayShadow = false;
-  export let open = false;
   export let segment;
   export let visible = true;
 </script>
@@ -27,7 +26,7 @@
     transform: none;
   }
 
-  header.withShadow {
+  header.with-shadow {
     box-shadow: 0 -0.4rem 0.9rem 0.2rem rgba(0, 0, 0, 0.5);
   }
   nav {
@@ -38,7 +37,6 @@
     transform: none;
     transition: none;
     box-shadow: none;
-
     display: flex;
     align-items: center;
     font-weight: 300;
@@ -46,19 +44,19 @@
     color: black;
   }
 
-  .nav-links {
-    margin-left: auto;
-    display: flex;
-    align-items: center;
+  header nav :global(.logo-animated) {
+    margin-right: auto;
+  }
+
+  header nav :global(.menu-button) {
+    z-index: 2;
   }
 </style>
 
-<header class:visible={visible || open} class:withShadow={displayShadow}>
+<header class:visible class:with-shadow={displayShadow}>
   <nav>
-    <LogoAnimated />
-    <div class="nav-links">
-      <Menu {segment} />
-      <SocialLinks />
-    </div>
+    <LogoAnimated class="logo-animated" />
+    <Menu {segment} />
+    <MenuButton class="menu-button" />
   </nav>
 </header>
