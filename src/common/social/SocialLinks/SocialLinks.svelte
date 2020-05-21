@@ -17,5 +17,9 @@
     name="meetup"
     {size} />
   <IconLink href="https://twitter.com/UXDesignBrest" name="twitter" {size} />
+  <IconLink
+    href="https://www.youtube.com/channel/UCw1MPOPzbICtaye1785V87g"
+    name="youtube"
+    {size} />
   <IconLink href="https://github.com/UXDesignBrest" name="github" {size} />
 </div>
