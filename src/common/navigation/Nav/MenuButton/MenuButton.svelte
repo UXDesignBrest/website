@@ -1,6 +1,6 @@
 <script>
   import { menuStore } from "../../../../stores";
-  import IconButton from "../../../../cdk/icons/IconButton/IconButton.svelte";
+  import { IconButton } from "../../../../cdk";
 
   const { menuIsOpen, toggleMenu } = menuStore;
 </script>

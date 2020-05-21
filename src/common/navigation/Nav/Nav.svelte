@@ -1,6 +1,5 @@
 <script>
-  import IconLink from "../../../cdk/icons/IconLink/IconLink.svelte";
-  import LogoAnimated from "../../../cdk/logos/LogoAnimated/LogoAnimated.svelte";
+  import { IconLink, LogoAnimated } from "../../../cdk";
   import MenuButton from "./MenuButton";
   import Menu from "./Menu";
 

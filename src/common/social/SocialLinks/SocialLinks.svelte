@@ -1,5 +1,5 @@
 <script>
-  import IconLink from "../../../cdk/icons/IconLink/IconLink.svelte";
+  import { IconLink } from "../../../cdk";
 
   const size = 24;
 </script>
