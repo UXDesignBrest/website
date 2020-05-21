@@ -23,7 +23,12 @@
     list-style: none;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 840px) {
+    ul {
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
   }
 </style>
 
