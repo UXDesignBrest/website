@@ -1,7 +1,8 @@
 <script>
+  import Icons from "./_Icons.svelte";
+
   export let name;
   export let size = 20;
-  import Icons from "./_Icons.svelte";
 </script>
 
 <style>

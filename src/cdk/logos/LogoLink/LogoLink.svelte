@@ -1,5 +1,6 @@
 <script>
-  import Logo from "../Logo/Logo.svelte";
+  import Logo from "../Logo";
+
   export let href;
 </script>
 
