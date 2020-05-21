@@ -15,6 +15,10 @@
   }
 }
 
+:focus {
+  outline: var(--primary-color) auto 2px;
+}
+
 @font-face {
   font-family: "ParalucentW00-Medium";
   src: url("font/ParalucentMedium/@font-face/f0ea4ec01961a71ed24801fb00ce3c9e.eot");
