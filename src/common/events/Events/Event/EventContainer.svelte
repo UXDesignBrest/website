@@ -4,7 +4,8 @@
 
   const eventInput = {
     image: event.featured_photo.photo_link,
-    name: event.name
+    name: event.name,
+    url: event.link
   };
 </script>
 
