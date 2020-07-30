@@ -1,5 +1,5 @@
 <script>
-  import Nav from "./Nav.svelte";
+  import Header from "./Header.svelte";
   import { writable } from "svelte/store";
 
   export let segment;
@@ -25,4 +25,4 @@
 </script>
 
 <svelte:window on:hashchange={handleHashchange} on:scroll={handleScroll} />
-<Nav {displayShadow} {segment} {visible} />
+<Header {displayShadow} {segment} {visible} />

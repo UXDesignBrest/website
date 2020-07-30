@@ -1,12 +1,9 @@
 <script>
-  import SocialLinks from "../../../social/SocialLinks/SocialLinks.svelte";
-
   export let segment;
-  export let open = false;
 </script>
 
 <style>
-  .menu {
+  nav {
     display: flex;
     align-items: center;
   }
@@ -70,62 +67,36 @@
   }
 
   @media (max-width: 840px) {
-    .menu {
-      padding: 0 3rem 0 0;
-      position: fixed;
-      top: 0;
-      height: 0;
-      width: 100%;
-      transition: all 0.2s;
-    }
-
-    .menu.open {
-      list-style: none;
-      padding: 0 0 1em 0;
-      background: rgba(255, 255, 255, 0.95);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
+    nav {
       z-index: 1;
-      height: 100%;
+      display: block !important;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      height: auto;
+      width: calc(100vw - 0.5rem);
+      padding: 0.5rem 0.25rem;
+      background: white;
+      box-shadow: 0 -0.4rem 0.9rem 0.2rem rgba(0, 0, 0, 0.5);
     }
 
     ul {
       list-style: none;
       margin: 0;
+      padding: 0;
       line-height: 1;
       display: flex;
-      flex-direction: column;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
     }
 
-    li {
-      display: none;
-    }
-
-    .menu.open ul li {
-      font-size: 1.1rem;
-      display: block;
-    }
-
-    .menu .social-links {
-      display: none;
-    }
-
-    .menu.open .social-links {
-      display: block;
-      margin: 2em 0;
+    nav ul li {
+      font-size: 0.825rem;
     }
   }
 </style>
 
-<div class="menu" class:open>
+<nav>
   <ul>
     <li>
       <a aria-current={segment === undefined ? 'page' : undefined} href=".">
@@ -146,7 +117,4 @@
       </a>
     </li>
   </ul>
-  <div class="social-links">
-    <SocialLinks />
-  </div>
-</div>
+</nav>

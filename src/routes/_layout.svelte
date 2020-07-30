@@ -1,5 +1,5 @@
 <script>
-  import { Nav } from "../common";
+  import { Header } from "../common";
 
   export let segment;
 </script>
@@ -8,13 +8,13 @@
   main {
     position: relative;
     max-width: calc(100vw - 4em);
-    padding: var(--nav-height) 0 0 0;
+    padding: var(--nav-height) 0;
     margin: 0 auto;
     box-sizing: border-box;
   }
 </style>
 
-<Nav {segment} />
+<Header {segment} />
 
 <main>
   <slot />
