@@ -1,7 +1,7 @@
 <script>
   import { IconLink } from "../../../cdk";
 
-  const size = 24;
+  const size = 20;
 </script>
 
 <style>
